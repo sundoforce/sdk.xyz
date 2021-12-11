@@ -2,6 +2,8 @@ module.exports = {
   siteMetadata: {
     siteName: "sdk.xyz",
     githubUrl: 'https://github.com/sundoforce/sdk.xyz',
+    siteUrl: `https://sdk.xyz`,
+
   },
   plugins: [
     // `gatsby-plugin-typescript` is automatically included in gatsby
@@ -47,7 +49,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
-        id: 'GTM-MWX84JT',
+        id: 'GTM-T4ZXK7B',
 
         // Include GTM in development.
         //
