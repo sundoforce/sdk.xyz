@@ -5,10 +5,10 @@ function Header({ siteName }: { siteName: string }): React.ReactElement {
   return (
     <div style={{justifyContent: 'space-between', display: 'flex', alignItems: 'baseline'}}>
       <Link to={'/'} style={{ fontSize: 'large', color: 'black', textDecoration: 'none' }}>
-        <h1>{siteName}</h1>
+        <h4>{siteName}</h4>
       </Link>
       <Link to={'/aboutme'} style={{ fontSize: 'large', color: 'black', textDecoration: 'none' }}>
-        <h3>about me</h3>
+        <h4>about me</h4>
       </Link>
     </div>
   );

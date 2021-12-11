@@ -1,8 +1,8 @@
 [submodule "blog-posts"]
 	path = blog-posts
-	url = https://github.com/siner308/blog-posts
-	branch = master
+	url = https://github.com/sundoforce/blog-posts
+	branch = main
 [submodule "aboutme"]
 	path = aboutme
-	url = https://github.com/siner308/aboutme
+	url = https://github.com/sundoforce/aboutme
 	branch = main
