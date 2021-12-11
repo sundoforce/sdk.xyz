@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteName: "Siner's Blog",
-    githubUrl: 'https://github.com/siner308/blog',
+    siteName: "sdk.xyz",
+    githubUrl: 'https://github.com/sundoforce/sdk.xyz',
   },
   plugins: [
     // `gatsby-plugin-typescript` is automatically included in gatsby
@@ -40,7 +40,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: 'UA-132357522-1',
+        trackingId: 'UA-212436716-1',
         head: true,
       },
     },
