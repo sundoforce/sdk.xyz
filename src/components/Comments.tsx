@@ -8,7 +8,7 @@ const Comments: React.FC = React.memo(() => {
 
     const attributes = {
       src: 'https://utteranc.es/client.js',
-      repo: 'siner308/blog-posts',
+      repo: 'sundoforce/blog-posts',
       'issue-term': 'title',
       label: 'comment',
       theme: 'github-light',

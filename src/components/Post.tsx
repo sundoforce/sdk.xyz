@@ -13,7 +13,7 @@ const Post = ({ node }: { node: RemarkableFileSystemNode }): JSX.Element => {
       style={{
         backgroundColor: 'white',
         width: 'auto',
-        filter: 'drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1))',
+        filter: '',
         marginBottom: 30,
         marginTop: 30,
       }}
