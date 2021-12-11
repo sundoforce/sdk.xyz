@@ -11,9 +11,9 @@ const Post = ({ node }: { node: RemarkableFileSystemNode }): JSX.Element => {
       // TODO: https://sohee1702.tistory.com/117?category=788998 포스트잇 효과도 이뻐보인다
       // TODO: https://post.naver.com/viewer/postView.nhn?volumeNo=7781411 이것도 이쁘다
       style={{
-        backgroundColor: 'antiquewhite',
+        backgroundColor: 'white',
         width: 'auto',
-        filter: 'drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25))',
+        filter: 'drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1))',
         marginBottom: 30,
         marginTop: 30,
       }}

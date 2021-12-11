@@ -12,7 +12,7 @@ const Tag = (props: TagProps): JSX.Element => {
     <Link to={`/tag/${tag.toLowerCase()}/`}><button
       style={{
         marginRight,
-        backgroundColor: 'antiquewhite',
+        backgroundColor: 'white',
         borderRadius: '6px',
         border: 'hidden',
         padding: 2,
