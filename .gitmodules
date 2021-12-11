@@ -1,0 +1,6 @@
+[submodule "aboutme"]
+	path = aboutme
+	url = https://github.com/sundoforce/aboutme
+[submodule "blog-posts"]
+	path = blog-posts
+	url = https://github.com/sundoforce/blog-posts
