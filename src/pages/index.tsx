@@ -62,7 +62,7 @@ const Index = (props: IndexPageProps): JSX.Element => {
           <Link to='/'><button
             style={{
               marginRight: 8,
-              backgroundColor: 'antiquewhite',
+              backgroundColor: 'white',
               borderRadius: '6px',
               border: 'hidden',
               padding: 2,
