@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const Footer: React.FC = () => {
-  const githubUrl = 'https://github.com/siner308';
+  const githubUrl = 'https://github.com/sundoforce';
   const netlifyUrl = 'https://www.netlify.com';
   return (
     <div
