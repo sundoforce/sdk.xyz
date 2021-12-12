@@ -8,7 +8,7 @@ function Header({ siteName }: { siteName: string }): React.ReactElement {
         <h3>{siteName}</h3>
       </Link>
       <Link to={'/aboutme'} style={{ fontSize: 'large', color: 'black', textDecoration: 'none' }}>
-        <h3>about me</h3>
+        <h4>about me</h4>
       </Link>
     </div>
   );
