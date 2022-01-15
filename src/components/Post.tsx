@@ -19,6 +19,7 @@ const Post = ({ node }: { node: RemarkableFileSystemNode }): JSX.Element => {
       }}
     >
       <Link
+        // to={getPostPath(node.childMarkdownRemark.frontmatter.date, node.name)}
         to={getPostPath(node.childMarkdownRemark.frontmatter.date, node.name)}
         style={{ textDecoration: 'none', color: 'black' }}
       >

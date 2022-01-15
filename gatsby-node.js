@@ -32,7 +32,8 @@ exports.createPages = async function ({ actions, graphql }) {
   data.allMarkdownRemark.nodes.forEach((node) => {
     const dateForPath = node.frontmatter.date;
     const slug = node.fields.slug;
-    const path = `${dateForPath}${slug}`;
+    const path = `${slug}`;
+    // const path = `${dateForPath}${slug}`;
     actions.createPage({
       path,
       component: require.resolve(`${__dirname}/src/components/PostDetail.tsx`),
