@@ -1,2 +1,5 @@
 require('prismjs/themes/prism.css');
-require('/table-of-contents.css');
+require('/stylesheets/table-of-contents.css');
+require('/stylesheets/quote.css');
+require('/stylesheets/post-grid.css');
+require('/stylesheets/post-card.css');
