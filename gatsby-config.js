@@ -87,5 +87,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sitemap',
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://sdk.xyz',
+        sitemap: 'https://sdk.xyz/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
   ],
 };
