@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteName: 'sdk.sdk\'s .Blog',
+    siteName: 'SDK\'s Blog',
     githubUrl: 'https://github.com/sundoforce/sdk.xyz',
     siteUrl: `https://sdk.xyz`,
     image: 'https://blog.sundo.kim/favicon.ico'
