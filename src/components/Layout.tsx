@@ -17,8 +17,6 @@ function Layout(props: LayoutProps): React.ReactElement {
   return (
     <div style={{
       backgroundColor: 'white',
-      backgroundRepeat: 'repeat',
-      backgroundSize: '200px 200px',
     }}>
 
       <div
