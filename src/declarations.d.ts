@@ -15,6 +15,7 @@ export interface IndexQueryProps {
   site: {
     siteMetadata: {
       siteName: string;
+      image: string;
     };
   };
   filteredFiles: AllFile;
@@ -47,7 +48,16 @@ export type ChildMarkdownRemark = {
     date: string;
     tags: string[];
     image: string;
+    draft: string;
   };
+  fields: {
+    readingTime: {
+      text: string;
+      // minutes: number;
+      // time: number;
+      // words: number;
+    }
+  }
 };
 
 export type IndexPageProps = PageProps<IndexQueryProps>;

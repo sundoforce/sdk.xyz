@@ -3,22 +3,21 @@ import React from 'react';
 import { backgroundStyle } from '../style/backgroundStyle';
 
 export interface TagProps {
-  tag: string;
-  marginRight: number;
+  name: string;
+  url: string;
 }
 
 const Tag = (props: TagProps): JSX.Element => {
-  const { tag, marginRight } = props;
+  const { name, url } = props;
   return (
-    <Link to={`/tag/${tag.toLowerCase()}/`}><button
+    <Link to={url}><button
       style={{
         ...backgroundStyle,
-        marginRight,
         borderRadius: '6px',
         border: 'hidden',
         padding: 2,
         cursor: 'pointer',
-      }}>#{tag.toLowerCase()}</button>
+      }}>#{name.toLowerCase()}</button>
     </Link>
   );
 };

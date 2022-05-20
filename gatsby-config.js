@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    siteName: "sdk.xyz",
+    siteName: 'sdk.sdk\'s .Blog',
     githubUrl: 'https://github.com/sundoforce/sdk.xyz',
     siteUrl: `https://sdk.xyz`,
-
+    image: 'https://blog.sundo.kim/favicon.ico'
   },
   plugins: [
     // `gatsby-plugin-typescript` is automatically included in gatsby
@@ -13,6 +13,13 @@ module.exports = {
       resolve: 'gatsby-plugin-typography',
       options: {
         pathToConfigModule: 'src/utils/typography',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'sample',
+        path: `${__dirname}/sample-posts`,
       },
     },
     {
@@ -34,8 +41,15 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-prismjs',
+            resolve: 'gatsby-remark-highlight-code',
+            options: {
+              terminal: 'carbon',
+              theme: 'material',
+            }
           },
+          {
+            resolve: 'gatsby-remark-reading-time',
+          }
         ],
       },
     },
@@ -60,7 +74,7 @@ module.exports = {
         // should be an object or a function that is executed in the browser
         //
         // Defaults to null
-        defaultDataLayer: { platform: "gatsby" },
+        defaultDataLayer: { platform: 'gatsby' },
 
         // Specify optional GTM environment details.
         // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
@@ -83,6 +97,15 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-anchor-links',
+    },
+    {
+      resolve: 'gatsby-plugin-google-adsense',
+      options: {
+        publisherId: `ca-pub-8376214249782360`,
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-postcss',
     },
     {
       resolve: 'gatsby-plugin-sitemap',
