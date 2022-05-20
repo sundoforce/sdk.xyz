@@ -16,9 +16,6 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "gatsby-plugin-sitemap": "^2.12.0",
-    "gatsby-plugin-robots-txt": "^1.7.0",
-    "@deckdeckgo/highlight-code": "^4.1.0",
     "@deckdeckgo/highlight-code": "^4.1.0",
     "gatsby": "^4.9.3",
     "gatsby-plugin-anchor-links": "^1.2.1",
