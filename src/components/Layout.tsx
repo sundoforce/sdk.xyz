@@ -15,6 +15,11 @@ interface LayoutProps {
 function Layout(props: LayoutProps): React.ReactElement {
   const { children, title, siteName, maxWidth, image, excerpt }: LayoutProps = props;
   return (
+    <div style={{
+      backgroundColor: 'white',
+      backgroundRepeat: 'repeat',
+      backgroundSize: '200px 200px',
+    }}>
 
       <div
         style={{
